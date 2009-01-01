@@ -164,7 +164,7 @@ cgXbarCCO <- function() {
 cgXbarewma <- function() {
 	checkpkg("qcc")
     require("qcc")
-	initializeDialog(title=gettextRcmdr("X-bar Exponentially Weighted Moving Average Control Chart")) 
+	initializeDialog(title=gettextRcmdr("X-bar EWMA Control Chart")) 
     xBox <- variableListBox(top, selectmode="multiple", title=gettextRcmdr("Select the sample variables")) # Define lista de variáveis com a amostra
     especFrame <- tkframe(top)
     sigmaVar <- tclVar("3")
@@ -354,7 +354,7 @@ cgS <- function() {
 cgSewma <- function() {
 	checkpkg("qcc")
     require("qcc")
-	initializeDialog(title=gettextRcmdr("S Exponentially Weighted Moving Average Control Chart")) 
+	initializeDialog(title=gettextRcmdr("S EWMA Control Chart")) 
     xBox <- variableListBox(top, selectmode="multiple", title=gettextRcmdr("Select the sample variables")) # Define lista de variáveis com a amostra
     especFrame <- tkframe(top)
     sigmaVar <- tclVar("3")
@@ -487,7 +487,7 @@ cgR <- function() {
 cgRewma <- function() {
 	checkpkg("qcc")
     require("qcc")
-	initializeDialog(title=gettextRcmdr("R Exponentially Weighted Moving Average Control Chart")) 
+	initializeDialog(title=gettextRcmdr("R EWMA Control Chart")) 
     xBox <- variableListBox(top, selectmode="multiple", title=gettextRcmdr("Select the sample variables")) # Define lista de variáveis com a amostra
     especFrame <- tkframe(top)
     sigmaVar <- tclVar("3")
@@ -530,7 +530,7 @@ cgRewma <- function() {
 
     OKCancelHelp(helpSubject="qcc")
     tkgrid(getFrame(xBox), sticky="nw")
-    tkgrid(tklabel(top, text=gettextRcmdr("Especificações"), fg="blue"), sticky="w")
+    tkgrid(tklabel(top, text=gettextRcmdr("Specifications"), fg="blue"), sticky="w")
 	  tkgrid(tklabel(especFrame, text=gettextRcmdr("k = ")), sigmaEntry, sticky="w")
 	  tkgrid(tklabel(especFrame, text=gettextRcmdr("Lambda = ")), lambdaEntry, sticky="w")
 	  tkgrid(especFrame, sticky="w")
@@ -619,7 +619,7 @@ cgXbarone <- function() {
 cgXbaroneewma <- function() {
 	checkpkg("qcc")
     require("qcc")
-	initializeDialog(title=gettextRcmdr("Individual Exponentially Weighted Moving Average Control Chart")) 
+	initializeDialog(title=gettextRcmdr("Individual EWMA Control Chart")) 
     xBox <- variableListBox(top, title=gettextRcmdr("Select the sample variable"))
     especFrame <- tkframe(top)
     sigmaVar <- tclVar("3")
@@ -858,7 +858,7 @@ cgPCCO <- function() {
 cgPewma <- function() {
 	checkpkg("qcc")
     require("qcc")
-	  initializeDialog(title=gettextRcmdr("P Exponentially Weighted Moving Average Control Chart")) 
+	  initializeDialog(title=gettextRcmdr("P EWMA Control Chart")) 
     xBox <- variableListBox(top, title=gettextRcmdr("Select the sample variable"))
     yBox <- variableListBox(top, title=gettextRcmdr("Select the variable to samples size(s)"))
     especFrame <- tkframe(top)
@@ -1053,7 +1053,7 @@ cgnPCCO <- function() {
 cgnPewma <- function() {
 	checkpkg("qcc")
     require("qcc")
-	  initializeDialog(title=gettextRcmdr("nP Exponentially Weighted Moving Average Control Chart")) 
+	  initializeDialog(title=gettextRcmdr("nP EWMA Control Chart")) 
     xBox <- variableListBox(top, title=gettextRcmdr("Select the sample variable"))
     yBox <- variableListBox(top, title=gettextRcmdr("Select the variable to samples size(s)"))
     especFrame <- tkframe(top)
@@ -1248,7 +1248,7 @@ cgCCCO <- function() {
 cgCewma <- function() {
 	checkpkg("qcc")
     require("qcc")
-	  initializeDialog(title=gettextRcmdr("C Exponentially Weighted Moving Average Control Chart")) 
+	  initializeDialog(title=gettextRcmdr("C EWMA Control Chart")) 
     xBox <- variableListBox(top, title=gettextRcmdr("Select the sample variable"))
     yBox <- variableListBox(top, title=gettextRcmdr("Select the variable to samples size(s)"))
     especFrame <- tkframe(top)
@@ -1443,7 +1443,7 @@ cgUCCO <- function() {
 cgUewma <- function() {
 	checkpkg("qcc")
     require("qcc")
-	  initializeDialog(title=gettextRcmdr("U Exponentially Weighted Moving Average Control Chart")) 
+	  initializeDialog(title=gettextRcmdr("U EWMA Control Chart")) 
     xBox <- variableListBox(top, title=gettextRcmdr("Select the sample variable"))
     yBox <- variableListBox(top, title=gettextRcmdr("Select the variable to samples size(s)"))
     especFrame <- tkframe(top)
@@ -1601,7 +1601,7 @@ cgG <- function() {
 cgGewma <- function() {
 	checkpkg("qcc")
     require("qcc")
-	  initializeDialog(title=gettextRcmdr("G Exponentially Weighted Moving Average Control Chart")) 
+	  initializeDialog(title=gettextRcmdr("G EWMA Control Chart")) 
     xBox <- variableListBox(top, title=gettextRcmdr("Select the sample variable"))
     yBox <- variableListBox(top, title=gettextRcmdr("Select the variable to samples size(s)"))
     especFrame <- tkframe(top)
