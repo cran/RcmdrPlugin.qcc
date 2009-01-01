@@ -11,7 +11,7 @@
     item    Gmenu           command         "Graph"                                         cgG                         "numericP()"			""
     item    Gmenu           command         "EWMA"                                          cgGewma                     "numericP()"                    "" 
     item    Gmenu           command         "CUSUM"                                         cgGcusum                    "numericP()"                    "" 
-    item    cgMenu          cascade         "G   "                                          Gmenu                       ""			""
+    item    cgMenu          cascade         "G"                                             Gmenu                       ""			""
 
     menu    Umenu           cgMenu          ""                                              ""                          ""			        ""
     item    Umenu           command         "Graph"                                         cgU                         "numericP()"			""

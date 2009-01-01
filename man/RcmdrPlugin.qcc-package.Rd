@@ -12,7 +12,7 @@ This package provides an Rcmdr "plug-in" based on the qcc package, and it provid
 \tabular{ll}{
 Package: \tab RcmdrPlugin.qcc\cr
 Type: \tab Package\cr
-Version: \tab 1.0-1\cr
+Version: \tab 1.0-3\cr
 Date: \tab 2009-01-01\cr
 License: \tab GPL version 2 or newer\cr
 Encoding: \tab latin1\cr
