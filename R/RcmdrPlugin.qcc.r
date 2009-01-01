@@ -588,7 +588,7 @@ cgXbarone <- function() {
         sigma <- tclvalue(sigmaLevel)
         if (sigma <= 0)
         	{
-            errorCondition(recall=cgXbarone, message=gettextRcmdr("O número de sigmas deve ser positivo."))
+            errorCondition(recall=cgXbarone, message=gettextRcmdr("The number of sigmas must be positive."))
             return()
         	}
         closeDialog()

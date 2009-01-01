@@ -1,7 +1,7 @@
 Package: RcmdrPlugin.qcc
 Type: Package
 Title: Rcmdr qcc Plug-In
-Version: 1.0-5
+Version: 1.0-6
 Date: 2009-01-01
 Author: Renan Cortes <renanxc@hotmail.com>, contributions of I. Prestes
         <isaias.prestes@gmail.com> and Suzi Camey <sucamey@gmail.com>
@@ -14,5 +14,5 @@ License: GPL (>= 2)
 Encoding: latin1
 Models:
 Repository: CRAN
-Date/Publication: 2009-05-08 11:04:18
-Packaged: Thu May 7 18:09:08 2009; Administrador
+Date/Publication: 2012-10-29 08:57:36
+Packaged: 2012-10-29 08:57:36 UTC; ripley
